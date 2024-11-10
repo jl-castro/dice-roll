@@ -1,0 +1,112 @@
+[
+  {
+    "cell": 1,
+    "value": "¿Cuál fue la prédica de hoy? Si no responden, pierden 1 turno",
+    "img": "1.gif"
+  },
+  {
+    "cell": 2,
+    "value": "Sigues jugando, vuelve a lanzar los dados",
+    "img": "2.gif"
+  },
+  {
+    "cell": 3,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 4,
+    "value": "Fuiste escogido como ministro de alabanza, canten una canción con la palabra 'Cielo'",
+    "img": "4.gif"
+  },
+  {
+    "cell": 5,
+    "value": "Te dormiste en la prédica, retrocede 3 espacios",
+    "img": "5.gif"
+  },
+  {
+    "cell": 6,
+    "value": "¿Cuántos libros hay en el Nuevo Testamento? Si no respondes, retrocedes la cantidad del dado",
+    "img": "6.gif"
+  },
+  {
+    "cell": 7,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 8,
+    "value": "Fuiste escogido como ministro de alabanza, canten una canción con la palabra 'Señor'",
+    "img": "4.gif"
+  },
+  {
+    "cell": 9,
+    "value": "¿Cuántos libros hay en el Antiguo Testamento? Si no respondes, retrocedes la cantidad del dado",
+    "img": "6.gif"
+  },
+  {
+    "cell": 10,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 11,
+    "value": "Fuiste escogido servidor, el otro equipo está cansado, invítales juguito",
+    "img": "11.gif"
+  },
+  {
+    "cell": 12,
+    "value": "Llegaste tarde a la iglesia, retrocede una casilla",
+    "img": "12.gif"
+  },
+  {
+    "cell": 13,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 14,
+    "value": "David danzaba, y el equipo se regocijaba, ¡todos a danzar!",
+    "img": "14.gif"
+  },
+  {
+    "cell": 15,
+    "value": "Menciona el nombre de todos los pastores, si aciertan avanzan 2 casillas",
+    "img": "15.gif"
+  },
+  {
+    "cell": 16,
+    "value": "¿Cuál es el nombre de la Iglesia? Si no responden, retroceden a la casilla 5",
+    "img": "16.gif"
+  },
+  {
+    "cell": 17,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 18,
+    "value": "Miraste hacia atrás y te convertiste en sal, pierden un turno",
+    "img": "18.gif"
+  },
+  {
+    "cell": 19,
+    "value": "Ya te llevó el pez, responde las preguntas: ¿Dónde tenía que ir Jonás y cuántos días estuvo en el pez? Si no aciertas, pierdes 1 turno",
+    "img": "19.gif"
+  },
+  {
+    "cell": 20,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  },
+  {
+    "cell": 21,
+    "value": "Caíste al foso de los leones, responde las preguntas: ¿Por qué arrojaron a Daniel al foso y qué necesitó para salir? Si fallas, pierdes 1 turno",
+    "img": "21.gif"
+  },
+  {
+    "cell": 22,
+    "value": "No pasa nada, sigue tu rumbo",
+    "img": "3.gif"
+  }
+]

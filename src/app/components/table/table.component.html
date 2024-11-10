@@ -1,0 +1,59 @@
+<div class="board">
+  <div class="row" *ngFor="let row of rows; let i = index">
+    <div
+      *ngFor="let cell of row; let j = index"
+      class="cell"
+      (click)="getCellValue(cell)"
+      [ngClass]="{
+        neutral: cell === 'Inicio' || cell === 'Fin',
+        'top-right-corner': i === 0 && j === 7,
+        'bottom-right-corner': i === 1 && j === 7,
+        'top-left-corner': i === 1 && j === 0,
+        'bottom-left-corner': i === 2 && j === 0
+      }"
+    >
+      <app-token
+        *ngIf="playerPositions[0].row === i && playerPositions[0].cell === j"
+        [color]="color2"
+        [playerIcon]="playerTwoIcon"
+      ></app-token>
+      <app-token
+        *ngIf="playerPositions[1].row === i && playerPositions[1].cell === j"
+        [color]="color1"
+        [playerIcon]="playerOneIcon"
+      ></app-token>
+      <span
+        *ngIf="
+          (playerPositions[0].row !== i || playerPositions[0].cell !== j) &&
+          (playerPositions[1].row !== i || playerPositions[1].cell !== j)
+        "
+        >{{ cell }}</span
+      >
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="arrows">
+    <button class="left-icon" (click)="moveBackward()">
+      <fa-icon [icon]="leftArrowIcon"></fa-icon>
+    </button>
+    <button class="right-icon" (click)="moveForward()">
+      <fa-icon [icon]="rightArrowIcon"></fa-icon>
+    </button>
+  </div>
+  <button
+    class="play-icon"
+    [ngClass]="currentPlayer ? 'color1' : 'color2'"
+    (click)="changeTurn()"
+  >
+    <fa-icon [icon]="playerIcon"></fa-icon>
+  </button>
+</div>
+
+<app-question
+  [url]="url"
+  [text]="text"
+  (closeModal)="closeModal()"
+  *ngIf="showModal"
+></app-question>
